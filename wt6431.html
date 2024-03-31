@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paket Asansör Formu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+</head>
+
+<body>
+  <div>
+    <div>
+      <nav class="navbar bg-body-tertiary ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/logo.png" alt="img-asansor" width="50" height="24"> <i> &nbsp;IMG ASANSÖR &nbsp; International
+              Masaid Group Asansör Ticaret Limited Şirketi</i>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <section>
+        <div>
+          <div class="container">
+            <br />
+            <h2>PAKET ASANSÖR TALEP FORUMU (PACKAGE ELEVATOR REQUEST FORM)</h2>
+            <hr>
+            <form target="_blank" action="https://formsubmit.co/receptekin38@gmail.com" method="POST">
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-6 offset-6">
+                    <label for="date">Tarih:</label>
+                    <input type="date" id="date" name="date" class="form-control" placeholder="date" required>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <label for="company_name">Şirket Adı:</label>
+                    <input type="text" id="company_name" name="company_name" class="form-control"
+                      placeholder="Company Name" required>
+                  </div>
+                  <div class="col">
+                    <label for="project_name">Proje İsmi:</label>
+                    <input type="text" id="project_name" name="project_name" class="form-control"
+                      placeholder="project_name" required>
+                  </div>
+                  <div class="col">
+                    <label for="standard">Standart Seçiniz:</label>
+                    <select class="form-select" id="standard" name="standard" aria-label="Default select example">
+                      <option selected>Set a Standard</option>
+                      <option value="A3">A3</option>
+                      <option value="N81/20">N81/20</option>
+                      <option value="N81/20-50">N81/20-50</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <div class="row">
+                  <div class="col">
+                    <label for="elevator_capacity">Kapasite Seçiniz:</label>
+                    <select class="form-select" id="elevator_capacity" name="elevator_capacity"
+                      aria-label="Default select example">
+                      <option selected>Elevator Capacity</option>
+                      <option value="320 KG">320 KG</option>
+                      <option value="480 KG">480 KG</option>
+                      <option value="630 KG">630 KG</option>
+                      <option value="800 KG">800 KG</option>
+                      <option value="1000 KG">1000 KG</option>
+                      <option value="1250 KG">1250 KG</option>
+                      <option value="1500 KG">1500 KG</option>
+                      <option value="1750 KG">1750 KG</option>
+                      <option value="2000 KG">2000 KG</option>
+                    </select>
+                  </div>
+                  <div class="col">
+                    <label for="number_of_floors">Kat Sayısı:</label>
+                    <input type="number" id="number_of_floors" name="number_of_floors" class="form-control"
+                      placeholder=" Number of Floors" required>
+                  </div>
+                  <div class="col">
+                    <label for="Number_of_Stops">Durak Sayısı:</label>
+                    <input type="number" id="Number_of_Stops" name="Number_of_Stops" class="form-control"
+                      placeholder=" Number of Stops" required>
+                  </div>
+                  <div class="col">
+                    <label for="elevator_type">Asansör Tipi:</label>
+                    <select class="form-select" id="elevator_type" name="elevator_type"
+                      aria-label="Default select example">
+                      <option selected>Elevator Type</option>
+                      <option value="AC2">AC2/ Çift Hızlı Asansör</option>
+                      <option value="MR">MR / Dişlili Asansör </option>
+                      <option value="MRL">MRL / Dişlisiz Asannsör</option>
+                    </select>
+                  </div>
+                </div>
+                <br />
+                <div class="form-group">
+                  <label for="lift_type">Asansör Türünü Seçiniz (Lift TYPE )</label>
+                  <br>
+                  <div class="form-check form-check-inline mt-3">
+                    <input class="form-check-input" type="radio" name="lift_type" id="elevator_type_passenger"
+                      value="pesenger">
+                    <label class="form-check-label" for="elevator_type_passenger">Yolcu ( Pesenger )</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lift_type" id="mont_charge_elevator"
+                      value="mont_charge">
+                    <label class="form-check-label" for="mont_charge_elevator">Yük (Mont charge)</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lift_type" id="home_lift" value="home_lift">
+                    <label class="form-check-label" for="home_lift">Home lift</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lift_type" id="Hotel" value="Hotel">
+                    <label class="form-check-label" for="Hotel">Hotel</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lift_type" id="Office" value="Office">
+                    <label class="form-check-label" for="Office">Ofis</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lift_type" id="hospital" value="hospital">
+                    <label class="form-check-label" for="hospital">Hastane (hospital)</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lift_type" id="other" value="other">
+                    <label class="form-check-label" for="other">Diğer (Other)</label>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <div class="row">
+                    <div class="col">
+                      <label for="hanger_type">Askı Tipi:</label>
+                      <select class="form-select" name="hanger_type" id="hanger_type"
+                        aria-label="Default select example">
+                        <option selected>Hanger TYPE</option>
+                        <option value="1:1">1:1</option>
+                        <option value="2:1">2:1</option>
+                        <option value="3:1">3:1</option>
+                        <option value="4:1">4:1</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <label for="engine_room_position">Makine Dairesi Konumu:</label>
+                      <select class="form-select" name="engine_room_position" id="engine_room_position"
+                        aria-label="Default select example">
+                        <option selected>Engine Room Position</option>
+                        <option value="kuyu_ustunde">Kuyu Üstünde</option>
+                        <option value="kuyu_icinde">Kuyu İçinde</option>
+                        <option value="kuyu_altinda">Kuyu Altında</option>
+                        <option value="kuyu_altinda_yanda">Kuyu Altında Yanda</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <label for="controller">Kontroller:</label>
+                      <select class="form-select" name="controller" id="controller" aria-label="Default select example">
+                        <option selected>Controller</option>
+                        <option value="simplex">Simplex </option>
+                        <option value="duplex">Duplex </option>
+                        <option value="uclugroup">3'lü Grup </option>
+                        <option value="group_control">Grup Kontrol</option>
+                      </select>
+                    </div>
+                    <div class="form-group mt-3">
+                      <label for="cabinet_cassette_size">Kabin Kasedi Boyu ( COP Size)</label>
+                      <br>
+                      <div class="form-check form-check-inline mt-3">
+                        <input class="form-check-input" type="radio" name="cabinet_cassette_size" id="half_size"
+                          value="half_size">
+                        <label class="form-check-label" for="half_size">Yarım Boy "1000 mm"</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="cabinet_cassette_size" id="full_size"
+                          value="full_size">
+                        <label class="form-check-label" for="full_size">Tam Boy "2000 mm"</label>
+                      </div>
+                      <div class="form-group mt-3">
+                        <div class="row">
+                          <div class="col">
+                            <label for="cop_covering">Kabin Kasedi Kaplaması:</label>
+                            <select class="form-select" name="cop_covering" id="cop_covering"
+                              aria-label="Default select example">
+                              <option selected>Cop Covering</option>
+                              <option value="cam">CAM</option>
+                              <option value="paslanmaz">Paslanmaz</option>
+                              <option value="ayna_paslanmaz">Ayna Paslanmaz</option>
+                              <option value="desenli_paslanmaz">Desenli Paspanmaz</option>
+                              <option value="diger">Diğer</option>
+                            </select>
+                          </div>
+                          <div class="col">
+                            <label for="cop_specifications">Kabin Kasedi Özellikleri:</label>
+                            <select class="form-select" name="cop_specifications" id="cop_specifications"
+                              aria-label="Default select example">
+                              <option selected>COP Specifications</option>
+                              <option value="standart">Standart</option>
+                              <option value="ozel">özel</option>
+                            </select>
+                          </div>
+                          <div class="col">
+                            <label for="cop_indicator">Kabin Kasedi Göstergesi:</label>
+                            <select class="form-select" name="cop_indicator" id="cop_indicator"
+                              aria-label="Default select example">
+                              <option selected>COP indicator</option>
+                              <option value="7_segment">7 Segments </option>
+                              <option value="dot_matrix">Dot-Matrix</option>
+                              <option value="lcd">LCD Indicators</option>
+                            </select>
+                          </div>
+                          <div class="col">
+                            <label for="lop_display">Kat Kasedi Göstergesi:</label>
+                            <select class="form-select" name="lop_display" id="lop_display"
+                              aria-label="Default select example">
+                              <option selected>LOP Display</option>
+                              <option value="7_segment">7 Segments </option>
+                              <option value="dot_matrix">Dot-Matrix </option>
+                              <option value="lcd">LCD Indicators </option>
+                            </select>
+                          </div>
+                          <div class="form-group mt-3">
+                            <label for="lop_specifications">Kat Kasedi Özellikleri:</label>
+                            <br>
+                            <div class="form-check form-check-inline mt-3">
+                              <input class="form-check-input" type="radio" name="lop_specifications"
+                                id="downward_addition" value="downward_addition">
+                              <label class="form-check-label" for="asagi_yon_toplama">Aşağı Yön Toplama</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="lop_specifications"
+                                id="upward_collection" value="upward_collection">
+                              <label class="form-check-label" for="yukari_yon_toplama">Yukarı Yön Toplama</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="lop_specifications"
+                                id="lop_type_stainless_tp" value="tp_paslanmaz">
+                              <label class="form-check-label" for="lop_type_stainless_tp">Taşlanmış Paslanmaz </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="lop_specifications"
+                                id="lop_type_stainless_tp" value="ay_paslanmaz">
+                              <label class="form-check-label" for="lop_type_stainless_ap">Ayna Paslanmaz.</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="lop_specifications"
+                                id="lop_type_stainless_dp" value="dp_paslanmaz">
+                              <label class="form-check-label" for="lop_type_stainless_dp">Desennli Paslanmaz.</label>
+                            </div>
+                            <div class="form-group mt-3">
+                              <div class="row">
+                                <div class="col">
+                                  <label for="floor_display">Kapı Üstü Gösterge:</label>
+                                  <select class="form-select" name="floor_display" id="floor_display"
+                                    aria-label="Default select example">
+                                    <option selected>Floor Display</option>
+                                    <option value="yon_oku">Yön Oku</option>
+                                    <option value="7_segment">7 Segment</option>
+                                    <option value="dot_matrix">Dot-Matrix</option>
+                                    <option value="lcd">LCD</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group mt-3">
+                            <div class="row">
+                              <div class="col">
+                                <label for="cabin_entry_type">Kabin Giriş Tipi:</label>
+                                <select class="form-select" name="cabin_entry_type" id="cabin_entry_type"
+                                  aria-label="Default select example">
+                                  <option selected>Cabin Entry Type</option>
+                                  <option value="onden_tek_giris">Önden Tek Giriş</option>
+                                  <option value="cift_on_arka">Çift Giriş (Ön/Arka) </option>
+                                  <option value="cift_on_yan">Çift Giriş (Ön/Yan)</option>
+                                </select>
+                              </div>
+                              <div class="col">
+                                <label for="cabin_cladding">Kabin Kaplaması:</label>
+                                <select class="form-select" name="cabin_cladding" id="cabin_cladding"
+                                  aria-label="Default select example">
+                                  <option selected>Cabin Cladding</option>
+                                  <option value="standart">Standart </option>
+                                  <option value="panoramik">Panoramik </option>
+                                  <option value="tp_paslanmaz">Taşlanmış Paslanmaz </option>
+                                  <option value="ay_paslanmaz">Ayna Paslanmaz </option>
+                                  <option value="dp_paslanmaz">Desenli Paslanmaz</option>
+                                  <option value="ahsap">Ahşap</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group mt-3">
+                            <div class="row">
+                              <div class="col">
+                                <label for="floor_material">Zemin Malzemesi:</label>
+                                <select class="form-select" name="floor_material" id="floor_material"
+                                  aria-label="Default select example">
+                                  <option selected>Floor Material </option>
+                                  <option value="granit">Granit </option>
+                                  <option value="Linolium">Linolium </option>
+                                  <option value="dogal_granit">Doğal Granit </option>
+                                  <option value="diger">Diğer</option>
+                                </select>
+                              </div>
+                              <div class="col">
+                                <label for="cabin_ceiling">Tavan:</label>
+                                <select class="form-select" name="cabin_ceiling" id="cabin_ceiling"
+                                  aria-label="Default select example">
+                                  <option selected>Cabin Ceiling</option>
+                                  <option value="lk_paslanmaz">Lazer Kesim Paslanmaz</option>
+                                  <option value="cam">Cam</option>
+                                  <option value="ahsap">Ahşap</option>>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group mt-3">
+                            <div class="row">
+                              <div class="col">
+                                <label for="select_door_sizes">Kapı Ölçüleri Seç:</label>
+                                <select class="form-select" name="select_door_sizes" id="select_door_sizes"
+                                  aria-label="Default select example">
+                                  <option selected>Select Door Sizes </option>
+                                  <option value="7-2">700 mm * 2000 mm</option>
+                                  <option value="8-2">800 mm * 2000 mm</option>
+                                  <option value="9-2">900 mm * 2000 mm</option>
+                                  <option value="10-2">1000 mm * 2000 mm</option>
+                                  <option value="11-2">1100 mm * 2000 mm</option>
+                                  <option value="12-2">1200 mm * 2000 mm</option>
+                                  <option value="7-22">700 mm * 2200 mm</option>
+                                  <option value="8-22">800 mm * 2200 mm</option>
+                                  <option value="9-22">900 mm * 2200 mm</option>
+                                  <option value="10-22">1000 mm * 2200 mm</option>
+                                  <option value="11-22">1100 mm * 2200 mm</option>
+                                  <option value="12-22">1200 mm * 2200 mm</option>
+                                </select>
+                              </div>
+                              <div class="col">
+                                <label for="door_panel">Kapı Paneli:</label>
+                                <select class="form-select" name="door_panel" id="door_panel"
+                                  aria-label="Default select example">
+                                  <option selected>Door Panel</option>
+                                  <option value="2pnl">2 Panel</option>
+                                  <option value="3pnl">3 panel</option>
+                                  <option value="4pnl">4 panel</option>
+                                </select>
+                              </div>
+                              <div class="col">
+                                <label for="select_door_directions">Kapı Yönlerini Seç:</label>
+                                <select class="form-select" name="select_door_directions" id="select_door_directions"
+                                  aria-label="Default select example">
+                                  <option selected>Select Door Directions</option>
+                                  <option value="center">Merkezi</option>
+                                  <option value="right_telescopic">Sağa Toplar</option>
+                                  <option value="left_telescopic">Sola Toplar</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group mt-3">
+                            <div class="row">
+                              <div class="col">
+                                <label for="cabin_door_cladding">Kabin Kapısı Kaplaması</label>
+                                <select class="form-select" name="cabin_door_cladding" id="cabin_door_cladding"
+                                  aria-label="Default select example">
+                                  <option selected>Cabin Door Cladding </option>
+                                  <option value="st_steel">Paslanmaz </option>
+                                  <option value="rall">Boyalı(RAL) </option>
+                                  <option value="glass">Cam</option>
+                                </select>
+                              </div>
+                              <div class="col">
+                                <label for="landing_door_cladding">Kat kapısı Kaplaması</label>
+                                <select class="form-select" name="landing_door_cladding" id="landing_door_cladding"
+                                  aria-label="Default select example">
+                                  <option selected>Landing Door Cladding </option>
+                                  <option value="st_steel">Paslanmaz </option>
+                                  <option value="rall">Boyalı(RAL) </option>
+                                  <option value="glass">Cam</option>
+                                </select>
+                              </div>
+                              <div class="col">
+                                <label for="overload">Aşırı Yük</label>
+                                <select class="form-select" name="overload" id="overload"
+                                  aria-label="Default select example">
+                                  <option selected>Overload</option>
+                                  <option value="kabin_alti">Kabin Altı</option>
+                                  <option value="halattan">Halat Askı Noktasından Ölçüm</option>
+                                  <option value="sola_toplar">Sola Toplar</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group mt-3">
+                          <div class="row">
+                            <div class="col">
+                              <label for="country">Ülke (Country):</label>
+                              <input type="text" class="form-control" name="country" id="country">
+                            </div>
+                            <div class="col">
+                              <label for="tel">Tel:</label>
+                              <input type="tel" class="form-control" name="tel" id="tel">
+                            </div>
+                            <div class="col">
+                              <label for="email">E-mail </label>
+                              <input type="email" name="email" id="email" class="form-control">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group mt-3">
+                          <div class="col">
+                            <textarea placeholder="Diğer Bilgileri Buraya Yazabilirsiniz.(Your Message) "
+                              class="form-control" name="message" rows="10" required></textarea>
+                            <button type="submit" class="btn btn-outline-info mt-4">Formu Gönder (Send)</button>
+                          </div>
+                        </div>
+                        <div class="form-group ">
+                          <div class="row">
+                            <div class="col-6 offset-6 mb-5">
+                              <label for="points">Formumuzu ne kadar beğendiniz? ( 0 veya 10):</label>
+                              <input type="range" id="points" name="points" min="0" max="10">
+                              <hr />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </div>
+</body>
+
+</html>

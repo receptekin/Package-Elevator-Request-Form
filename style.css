@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bee1e6;
+    font-size: 16px;
+    color: #255d73;
+
+}
+
+h2{
+    margin-top: 0px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #255d73;
+}
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0efeb;
+    font-size: 16px;
+    color: #335c67;
+}
+.container{
+    margin: auto;
+    background-color: #bee1e6;
+    border: 1px;
+    border-radius: 3px;
+}
+.btn-outline-info{
+    background: #73d2de;
+    color: #231651;
+}
+
+.form-group {
+
+    margin-bottom: 20px;
+
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+
+    height: 150px;
+
+}
